@@ -592,6 +592,9 @@
 		'debug' => false, // Enable debugging if you have problems and are looking for errors.
 		'fromName' => $config['site_title'],
 	);
+	$config['otservers_eu_voting'] = [
+		'enabled' => false,
+	];
 	
 	// Don't touch this unless you know what you are doing. (modifying this(key value) also requires modifications in OT files /XML/commands.xml).
 	$config['ingame_positions'] = array(
